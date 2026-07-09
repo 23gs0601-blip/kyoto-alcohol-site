@@ -1,4 +1,4 @@
-const slides = document.querySelectorAll(".slide");
+const slides = document.querySelectorAll(".slide-link");
 const dots = document.querySelectorAll(".dot");
 
 const prev = document.querySelector(".prev");
