@@ -30,12 +30,15 @@ body {
     object-fit: cover;
 
     opacity: 0;
+    pointer-events: none;
+
     transition: opacity 1s ease-in-out;
     cursor: pointer;
 }
 
 .slide.active {
     opacity: 1;
+    pointer-events: auto;
 }
 }
 
